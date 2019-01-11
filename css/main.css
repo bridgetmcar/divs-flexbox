@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #fff;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -107,10 +107,33 @@ body {
   font-size: 1.25em;
   height: 100%;
   background-color: #708090;
+  font-family: 'Poppins', sans-serif;
 }
 p{
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 1.25rem;
+}
+
+header{
+  height: 150px;
+width: 100%;
+display: flex;
+justify-content: ;
+align-items: ;
+font-family: 'Lobster Two', cursive;
+font-size: 4rem;
+}
+
+main{
+  height: 150px;
+width: 100%;
+
+}
+
+header, footer, main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
@@ -118,8 +141,9 @@ p{
   font-weight: 700;
   display: flex;
   justify-content: space-between;
-    border-top: #fff solid 1px;
-    border-bottom: #fff solid 1px;
+  /* border-top: #fff solid 1px;
+  border-bottom: #fff solid 1px; */
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
@@ -133,9 +157,7 @@ p{
   font-size: 1.6em;
   background-color:#708090;
   padding-left: 30px;
-
-;
-  height: 300px;
+  height: 400px;
 }
 
 .div-2{
@@ -145,7 +167,16 @@ p{
   border-left: #fff solid 1px;
 }
 
-
+.footer{
+  background-color: #fff;
+  text-align: center;
+  margin: 70px auto 70px;
+}
+.footer-btn{
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -219,6 +250,7 @@ p{
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
